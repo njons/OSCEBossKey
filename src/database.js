@@ -9,7 +9,7 @@ Airtable.configure({
   apiKey: process.env.AIRTABLE_API_KEY
 });
 
-const database = Airtable.base("appPuOj2tvImyi2vJ");
+const database = Airtable.base("apprDMfzlKustw8Ol");
 
 const queries = {
   getSectionStations: (res, section) => {
