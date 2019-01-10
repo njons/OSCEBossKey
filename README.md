@@ -2,7 +2,7 @@
 
 [![Build Status](https://travis-ci.org/fac-14/OSCEBossKey.svg?branch=master)](https://travis-ci.org/fac-14/OSCEBossKey) [![codecov](https://codecov.io/gh/fac-14/OSCEBossKey/branch/master/graph/badge.svg)](https://codecov.io/gh/fac-14/OSCEBossKey)
 
-:sparkles: **[VIEW THE APP](https://oscebosskey.herokuapp.com/)** :sparkles:
+:sparkles: **[VIEW THE APP](https://stormy-spire-19544.herokuapp.com)** :sparkles:
 
 ## Doctor doctor, I think I'm a bell?
 
