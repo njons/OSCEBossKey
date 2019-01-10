@@ -42,7 +42,7 @@ $ cd OSCEBossKey
 $ npm i # this will likely take a couple of minutes
 $ echo "AIRTABLE_API_KEY=the_actual_key_here" >> .env
 $ npm test # this will make sure you're all setup and good to go
-$ npm run
+$ npm start
 ```
 
 Then point your browser to `localhost:3333` (or the port the server says in your terminal) and you're golden :+1:
@@ -51,10 +51,10 @@ Then point your browser to `localhost:3333` (or the port the server says in your
 
 The app is divided into four main sections, with our work in this sprint being on creating a full user journey across the **History** section. Here's what they do:
 
-1. **History: A journey where an actor assumes the role of a patient with a medical history - such as a 52-year-old heavy smoker with chest pain.** _(Our focus for this sprint!)_
-2. **Examinations**: A medical student would follow a procedure without the associated history, such as investigating a hip or ankle.
-3. **Extras**: Additional information and reference about common procedures, such as inhaler technique.
-4. **Stats**: Data visualisations of user journey over time, ultimately to show students which areas they are doing well in and areas that need more attention.
+1.  **History: A journey where an actor assumes the role of a patient with a medical history - such as a 52-year-old heavy smoker with chest pain.** _(Our focus for this sprint!)_
+2.  **Examinations**: A medical student would follow a procedure without the associated history, such as investigating a hip or ankle.
+3.  **Extras**: Additional information and reference about common procedures, such as inhaler technique.
+4.  **Stats**: Data visualisations of user journey over time, ultimately to show students which areas they are doing well in and areas that need more attention.
 
 Our _History_ section allows users to either study from a pre-created list, or add (and then revise) their own cases to the list. Swipeable screens allow the actor taking on the role of the patient to understand their medical history while the medical student diagnoses, as well as easily check off the things they observe the medical student doing.
 
@@ -79,8 +79,8 @@ Our Figma prototypes served us really well in testing our user journey until we 
 
 We are **super proud** of the work we managed to do in a single sprint, but there's obviously loads of stuff we weren't able to include. We think we've got a totally kickass MVP but if we had more time we'd look at:
 
-1. Coding out the Examinations and Extras sections - we have basic support in now, but this could be expanded on for sure
-2. More tests! Test ALL THE THINGS! We think we've done a good job here but we're always striving for the best.
-3. Creating a robust authentication system (this is an entire sprint of its own)
-4. With proper user support, we'd love to make a really awesome statistics page - detailing things like average score and most missed marks
-5. Transform our potent webapp into a React Native delight
+1.  Coding out the Examinations and Extras sections - we have basic support in now, but this could be expanded on for sure
+2.  More tests! Test ALL THE THINGS! We think we've done a good job here but we're always striving for the best.
+3.  Creating a robust authentication system (this is an entire sprint of its own)
+4.  With proper user support, we'd love to make a really awesome statistics page - detailing things like average score and most missed marks
+5.  Transform our potent webapp into a React Native delight
